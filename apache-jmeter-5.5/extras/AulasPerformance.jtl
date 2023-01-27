@@ -280,4 +280,250 @@
 </httpSample>
 <sample t="644" it="4038" lt="643" ct="0" ts="1674650122619" s="true" lb="Tc_002_TeacherOperations" rc="200" rm="Number of samples in transaction : 4, number of failing samples : 0" tn="UserManagementModule 1-1" dt="" by="6386" sby="6120" ng="1" na="1"/>
 
+<httpSample t="2285" it="0" lt="2285" ct="1934" ts="1674818233207" s="true" lb="url" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="3016" sby="451" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/login</java.net.URL>
+</httpSample>
+<httpSample t="99" it="0" lt="99" ct="0" ts="1674818235819" s="true" lb="login" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="1040" sby="827" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/login</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="60" ct="0" ts="1674818236233" s="true" lb="allCourses" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="9046" sby="837" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/allCourses</java.net.URL>
+</httpSample>
+<httpSample t="406" it="0" lt="405" ct="0" ts="1674818236600" s="true" lb="Login" rc="201" rm="Created" tn="SuperAdminLogin 1-1" dt="text" by="6181" sby="1034" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/login/virtual-signin</java.net.URL>
+</httpSample>
+<httpSample t="417" it="0" lt="417" ct="0" ts="1674818237315" s="true" lb="Notification" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="1736" sby="840" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/notification/v2</java.net.URL>
+</httpSample>
+<httpSample t="112" it="0" lt="112" ct="0" ts="1674818238044" s="true" lb="schedule" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="8419" sby="838" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/schedule-new/</java.net.URL>
+</httpSample>
+<httpSample t="99" it="0" lt="99" ct="0" ts="1674818238459" s="true" lb="subscription" rc="200" rm="OK" tn="SuperAdminLogin 1-1" dt="text" by="1066" sby="866" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/schedule-new/subscription/user-hours-data</java.net.URL>
+</httpSample>
+<sample t="3479" it="2701" lt="3477" ct="1934" ts="1674818232379" s="true" lb="UserLogIn" rc="200" rm="Number of samples in transaction : 7, number of failing samples : 0" tn="SuperAdminLogin 1-1" dt="" by="30504" sby="5693" ng="1" na="1"/>
+<httpSample t="236" it="0" lt="236" ct="91" ts="1674818238668" s="true" lb="UsersPage" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="5453" sby="890" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/stats?type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="72" it="0" lt="72" ct="0" ts="1674818238906" s="true" lb="AddUserSettings" rc="201" rm="Created" tn="UserManagementModule 1-1" dt="text" by="1072" sby="980" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/addUserSettings</java.net.URL>
+</httpSample>
+<httpSample t="473" it="0" lt="473" ct="0" ts="1674818239297" s="true" lb="Notification" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="1736" sby="860" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/notification/v2</java.net.URL>
+</httpSample>
+<httpSample t="206" it="0" lt="205" ct="0" ts="1674818239771" s="true" lb="StudentsPage" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="10509" sby="922" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Student&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="215" it="0" lt="215" ct="0" ts="1674818239978" s="true" lb="TeachersPage" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="7663" sby="921" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Teacher&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="93" it="0" lt="92" ct="0" ts="1674818240194" s="true" lb="DataOperatorsPage" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="6243" sby="932" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Dataoperator&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<httpSample t="213" it="0" lt="213" ct="0" ts="1674818240288" s="true" lb="OperationsPage" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="6200" sby="926" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user?page=1&amp;role=Operation&amp;sort=New&amp;type=week&amp;fromDate=2023-01-20&amp;toDate=2023-01-27</java.net.URL>
+</httpSample>
+<sample t="1508" it="330" lt="1506" ct="91" ts="1674818238665" s="true" lb="TC_001_UserManagementHomePage" rc="200" rm="Number of samples in transaction : 7, number of failing samples : 0" tn="UserManagementModule 1-1" dt="" by="38876" sby="6431" ng="1" na="1"/>
+<httpSample t="86" it="0" lt="86" ct="0" ts="1674818240504" s="true" lb="PendingClick" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="999" sby="873" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=pending</java.net.URL>
+</httpSample>
+<httpSample t="82" it="0" lt="81" ct="0" ts="1674818240592" s="true" lb="RejectedClick" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="7549" sby="874" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected</java.net.URL>
+</httpSample>
+<httpSample t="78" it="0" lt="78" ct="0" ts="1674818240676" s="true" lb="StudentInDropdown" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="5000" sby="887" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=Student</java.net.URL>
+</httpSample>
+<httpSample t="105" it="0" lt="105" ct="0" ts="1674818240755" s="true" lb="TeacherInDropdown" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="3068" sby="887" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=Teacher</java.net.URL>
+</httpSample>
+<httpSample t="91" it="0" lt="91" ct="0" ts="1674818240865" s="true" lb="DataOperatorInDropdown" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="1482" sby="892" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=DataOperator</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="0" ts="1674818240957" s="true" lb="OperationsInDropdown" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="999" sby="889" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/byStatus?status=rejected&amp;role=Operation</java.net.URL>
+</httpSample>
+<sample t="508" it="13" lt="507" ct="0" ts="1674818240503" s="true" lb="TC_002_Registration Request Page" rc="200" rm="Number of samples in transaction : 6, number of failing samples : 0" tn="UserManagementModule 1-1" dt="" by="19097" sby="5302" ng="1" na="1"/>
+<httpSample t="181" it="0" lt="181" ct="0" ts="1674818241329" s="true" lb="AddAStudent" rc="201" rm="Created" tn="UserManagementModule 1-1" dt="text" by="1565" sby="1049" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="120" it="0" lt="105" ct="0" ts="1674818241962" s="true" lb="GetAStudent" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="23515" sby="845" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/userId/5006</java.net.URL>
+</httpSample>
+<httpSample t="150" it="0" lt="150" ct="0" ts="1674818242394" s="true" lb="UpdateAStudent" rc="201" rm="Created" tn="UserManagementModule 1-1" dt="text" by="1665" sby="2479" ng="1" na="1">
+  <assertionResult>
+    <name>Text Response User details updated</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="184" it="0" lt="184" ct="0" ts="1674818242861" s="true" lb="DeleteAStudent" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="1048" sby="963" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/5006</java.net.URL>
+</httpSample>
+<sample t="635" it="1388" lt="620" ct="0" ts="1674818241024" s="true" lb="TC_003_AddStudentsOperations" rc="200" rm="Number of samples in transaction : 4, number of failing samples : 0" tn="UserManagementModule 1-1" dt="" by="27793" sby="5336" ng="1" na="1"/>
+<httpSample t="136" it="0" lt="136" ct="0" ts="1674818243360" s="true" lb="AddATeacher" rc="201" rm="Created" tn="UserManagementModule 1-1" dt="text" by="1600" sby="1068" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="93" it="0" lt="93" ct="0" ts="1674818243810" s="true" lb="GetATeacher" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="2039" sby="864" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/userId/5007</java.net.URL>
+</httpSample>
+<httpSample t="131" it="0" lt="131" ct="0" ts="1674818244210" s="true" lb="UpdateATeacher" rc="201" rm="Created" tn="UserManagementModule 1-1" dt="text" by="1700" sby="3338" ng="1" na="1">
+  <assertionResult>
+    <name>Text Response User details updated</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="98" it="0" lt="98" ct="0" ts="1674818244659" s="true" lb="DeleteATeacher" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="1048" sby="982" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code 200</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message OK</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/delete/5007</java.net.URL>
+</httpSample>
+<sample t="458" it="1255" lt="458" ct="0" ts="1674818243047" s="true" lb="TC_004_AddTeachersOperations" rc="200" rm="Number of samples in transaction : 4, number of failing samples : 0" tn="UserManagementModule 1-1" dt="" by="6387" sby="6252" ng="1" na="1"/>
+<httpSample t="128" it="0" lt="128" ct="0" ts="1674818245075" s="true" lb="AddADataOperator" rc="201" rm="Created" tn="UserManagementModule 1-1" dt="text" by="1624" sby="1092" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="81" it="0" lt="81" ct="0" ts="1674818245524" s="true" lb="GetADataOperator" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="2087" sby="870" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/userId/5008</java.net.URL>
+</httpSample>
+<httpSample t="193" it="0" lt="193" ct="0" ts="1674818245925" s="true" lb="UpdateADataOperator" rc="201" rm="Created" tn="UserManagementModule 1-1" dt="text" by="1710" sby="3357" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="101" it="0" lt="101" ct="0" ts="1674818246424" s="true" lb="DeleteADataOperator" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="1048" sby="988" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/delete/5008</java.net.URL>
+</httpSample>
+<sample t="503" it="1262" lt="503" ct="0" ts="1674818244761" s="true" lb="TC_005_AddDataOperators" rc="200" rm="Number of samples in transaction : 4, number of failing samples : 0" tn="UserManagementModule 1-1" dt="" by="6469" sby="6307" ng="1" na="1"/>
+<httpSample t="200" it="0" lt="200" ct="0" ts="1674818246840" s="true" lb="AddAOperation" rc="201" rm="Created" tn="UserManagementModule 1-1" dt="text" by="1621" sby="1089" ng="1" na="1">
+  <assertionResult>
+    <name>Response code 201</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Message Created</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Text message User added succesfully</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://test.aulas.one/api/user/addUser</java.net.URL>
+</httpSample>
+<httpSample t="78" it="0" lt="78" ct="0" ts="1674818247356" s="true" lb="GetAOperations" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="2081" sby="845" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/userId/5009</java.net.URL>
+</httpSample>
+<httpSample t="134" it="0" lt="134" ct="0" ts="1674818247739" s="true" lb="UpdateOperations" rc="201" rm="Created" tn="UserManagementModule 1-1" dt="text" by="1698" sby="3134" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/updateUser</java.net.URL>
+</httpSample>
+<httpSample t="102" it="0" lt="102" ct="0" ts="1674818248189" s="true" lb="DeleteOperations" rc="200" rm="OK" tn="UserManagementModule 1-1" dt="text" by="1048" sby="963" ng="1" na="1">
+  <java.net.URL>https://test.aulas.one/api/user/delete/5009</java.net.URL>
+</httpSample>
+<sample t="514" it="1251" lt="514" ct="0" ts="1674818246527" s="true" lb="TC_006_AddOperations" rc="200" rm="Number of samples in transaction : 4, number of failing samples : 0" tn="UserManagementModule 1-1" dt="" by="6448" sby="6031" ng="1" na="1"/>
+
 </testResults>
