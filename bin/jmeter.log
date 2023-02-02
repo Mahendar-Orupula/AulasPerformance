@@ -1,0 +1,53 @@
+2023-02-01 10:38:49,660 INFO o.a.j.u.JMeterUtils: Setting Locale to en_IN
+2023-02-01 10:38:49,700 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-02-01 10:38:49,700 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: Version 5.5
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: java.version=11.0.15
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: os.name=Windows 10
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: os.arch=amd64
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: os.version=10.0
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: java.awt.headless=null
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: Max memory     =4265607168
+2023-02-01 10:38:49,711 INFO o.a.j.JMeter: Available Processors =4
+2023-02-01 10:38:49,724 INFO o.a.j.JMeter: Default Locale=English (India)
+2023-02-01 10:38:49,724 INFO o.a.j.JMeter: JMeter  Locale=English (India)
+2023-02-01 10:38:49,724 INFO o.a.j.JMeter: JMeterHome=C:\Users\Brigosha_Guest\Documents\Android Data\apache-jmeter-5.5\apache-jmeter-5.5
+2023-02-01 10:38:49,724 INFO o.a.j.JMeter: user.dir  =C:\Users\Brigosha_Guest\Documents\Android Data\apache-jmeter-5.5\apache-jmeter-5.5\bin
+2023-02-01 10:38:49,724 INFO o.a.j.JMeter: PWD       =C:\Users\Brigosha_Guest\Documents\Android Data\apache-jmeter-5.5\apache-jmeter-5.5\bin
+2023-02-01 10:38:49,729 INFO o.a.j.JMeter: IP: 192.168.2.6 Name: DESKTOP-A6LNTTJ FullName: DESKTOP-A6LNTTJ
+2023-02-01 10:38:49,760 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-02-01 10:38:50,259 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-02-01 10:38:55,721 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=jenkins-63a98c06011bd000e6491e65b3d7123b-gui
+2023-02-01 10:38:59,562 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, jpgc-csl=0.1, jpgc-casutg=2.10, jmeter.pack-listener=1.7, jpgc-graphs-vs=2.0, jpgc-plugins-manager=1.8, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2023-02-01 10:39:21,984 INFO o.a.j.s.FileServer: Default base='C:\Users\Brigosha_Guest\Documents\Android Data\apache-jmeter-5.5\apache-jmeter-5.5\bin'
+2023-02-01 10:39:21,990 INFO o.a.j.g.a.Load: Loading file: C:\Users\Brigosha_Guest\Documents\Android Data\apache-jmeter-5.5\apache-jmeter-5.5\extras\AulasPerformance.jmx
+2023-02-01 10:39:21,990 INFO o.a.j.s.FileServer: Set new base='C:\Users\Brigosha_Guest\Documents\Android Data\apache-jmeter-5.5\apache-jmeter-5.5\extras'
+2023-02-01 10:39:22,401 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-02-01 10:39:22,421 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-02-01 10:39:22,424 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-02-01 10:39:22,424 INFO o.a.j.s.SaveService: Loading file: C:\Users\Brigosha_Guest\Documents\Android Data\apache-jmeter-5.5\apache-jmeter-5.5\extras\AulasPerformance.jmx
+2023-02-01 10:39:23,349 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2023-02-01 10:39:23,350 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\Brigosha_Guest\Documents\Android Data\apache-jmeter-5.5\apache-jmeter-5.5\bin\proxyserver.jks
+2023-02-01 10:39:23,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-01 10:39:23,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-01 10:39:23,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-01 10:39:23,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-01 10:39:23,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-02-01 10:39:23,351 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-02-01 10:39:23,963 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-02-01 10:39:23,963 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-02-01 10:39:23,963 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-02-01 10:39:23,963 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-02-01 10:39:24,111 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-01 10:39:24,449 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-01 10:39:24,620 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-01 10:39:24,810 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-01 10:39:25,003 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-01 10:39:25,131 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-01 10:39:25,389 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-01 10:39:25,754 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-01 10:39:25,960 INFO o.a.j.s.FileServer: Set new base='C:\Users\Brigosha_Guest\Documents\Android Data\apache-jmeter-5.5\apache-jmeter-5.5\extras'
+2023-02-01 10:41:39,857 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
